@@ -1,0 +1,113 @@
+
+
+lors d'une maj qui touche les state il faut 
+
+- S'assurer que le pronvionce.png est clean par rapport au nouvelle donner du jeux vs mod (cause principal de crash)
+- on prend les regions_stete vanila on retir l'exple et les sea
+- on effectu un ajout avec le logiciel pour que tout les etat ajouter au province.png et present dans le 00_state.txt soit bien ajouter au state_region 
+- après c'est une implementation manuelle si des etat on etait ajouter -> d emanièr egeneral les dev ne touche pas au province, il redefinisse les etat à partir des province existante voi ril: retouche un peux les province
+
+
+
+modificatyion du japon:
+
+	s:STATE_HOKKAIDO = {
+		create_state = {
+			country = c:AIN
+			owned_provinces = {
+				x6275D4 x65D8B2 x5F2A24 x103C2B xEEB7F4 x413F60 x03E00D x86757A x420E86 xC85C0C x1E9A93 x70C55B x17C8CA x210B6E x85C158 x2090C0 x3EA37A x493B76 x9E56C2 xA011C0 x3974DA
+			}
+		}
+		create_state = {
+			country = c:JAP
+			owned_provinces = {
+				xA090C0 x40BDB8 xF17C01
+			}
+		}
+		add_homeland = cu:japanese
+		add_homeland = cu:ainu
+		add_claim = c:JAP
+	}
+	s:STATE_TOHOKU = {
+		create_state = {
+			country = c:JAP
+			owned_provinces = {
+				xE22202 xE0D080 xBC2AFE x3190C0 x15EED4 x81A720 xB011C0 xBED026 x1BAF33 x4C5533 xA26E5F xB090C0 xF29D08 x701040 x637FEB xAC762F xF01040 x322F47 x19C715 x3CA2FC
+			}
+		}
+		add_homeland = cu:japanese
+	}
+	s:STATE_KANTO = {
+		create_state = {
+			country = c:JAP
+			owned_provinces = { x800111 
+				xEF9040 x478599 xF011C0 xB94331 x7010C0 x709040 xEAE893 x787CC4 x7090C0 xD350FB
+			}
+		}
+		add_homeland = cu:japanese
+	}
+	s:STATE_TOKAI = {
+		create_state = {
+			country = c:JAP
+			owned_provinces = { x205FEB x3050C0 x31D0C0 x4942D2 x5E87A1 x910F25 x9B2E00 xADE732 xC02285 xCCB03E }
+		}
+
+		add_homeland = cu:japanese
+		set_variable = { name = daimyo_chain_id value = 0 }
+	}
+	s:STATE_HOKUSHINETSU = {
+		create_state = {
+			country = c:JAP
+			owned_provinces = { x5A57C3 x779089 x88595F xB050C0 xB0D040 xB5F9BD xD12DC5 xE76E8F xEF90C0 }
+		}
+
+		add_homeland = cu:japanese
+		set_variable = { name = daimyo_chain_id value = 0 }
+	} 
+	s:STATE_KANSAI = {
+		create_state = {
+			country = c:JAP
+			owned_provinces = {
+				xB0D0C0 xB03EF0 x614287 x305040 x70D040 x9E58B2
+			}
+		}
+		add_homeland = cu:japanese
+	}
+	s:STATE_KYOTO = {
+		create_state = {
+			country = c:JAP
+			owned_provinces = { x705040 x879C25 x8EC4C9 x9BD7C1 }
+		}
+
+		add_homeland = cu:japanese
+		set_variable = { name = daimyo_chain_id value = 0 }
+	}
+	s:STATE_KYUSHU = {
+		create_state = {
+			country = c:JAP
+			owned_provinces = {
+				x70CF00 xF0D000 x73414A xAE5874 xE16F98 x705080 x906F1E xEF5080 xCEA020 x1F0D2C x5C7980 x70D080
+			}
+		}
+		add_homeland = cu:japanese
+	}
+
+
+culture à redistibuer
+1804 no
+1837 no // no -> monaco et andore // no -> krakovie 
+1861 no // no -> krakovie 
+1871 no // no -> monaco et andore // ok -> krakovie 
+1890 no
+1919
+
+Japon à redefinir
+1804 no
+1837 vanilla
+1861 no
+1871 no
+1890 no
+1919 no
+
+xBD5671 à sip de partotu
+ 

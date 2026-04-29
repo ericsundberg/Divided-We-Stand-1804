@@ -100,6 +100,30 @@
 		}
 	}
 	s:STATE_PANAMA = {
+		region_state:WYU = {
+			create_pop = {
+				culture = north_andean
+				size = 269804
+			}
+			create_pop = {
+				culture = guajiro
+				size = 12000
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 162004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 62000
+			}
+			create_pop = {
+				culture = muisca
+				religion = catholic
+				size = 32004
+			}
+		}
 		region_state:CLM = {
 			create_pop = {
 				culture = central_american
@@ -126,6 +150,26 @@
 	}
 	# Haitian and Dominican population numbers are based off 1850 numbers from "La población de América Latina" by Nicolás Sánchez-Albornoz, scaled back 8,5% to account for approx. population growth.
 	s:STATE_HAITI = {
+		region_state:DOM = {
+			create_pop = { # Haitians.
+				culture = afro_antillean
+				size = 4007
+			}
+			create_pop = { # Mulatto.
+				culture = caribeno
+				size = 84126
+			}
+			create_pop = { # Mulatto.
+				culture = caribeno
+				pop_type = clergymen
+				size = 2000
+			}
+			create_pop = { # Mulatto.
+				culture = caribeno
+				pop_type = bureaucrats
+				size = 2000
+			}
+		}
 		region_state:HAI = {
 			create_pop = { # Includes mulatto population.
 				culture = afro_antillean

@@ -1710,16 +1710,30 @@
 			}
 		}
 	}
-	s:STATE_CHUBU = {
+	s:STATE_HOKUSHINETSU = {
+		# Shinano, Wakasa, Echizen, Kaga, Noto, Etchū, Echigo, and Sado provinces
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 2797621
+				size = 4138700
 			}
+		}		
+	}
+	s:STATE_KYOTO = {
+		# Ōmi, Tanba, Tango, and Tajima provinces
+		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				religion = shinto
-				size = 1183201
+				size = 1377948
+			}
+		}		
+	}
+	s:STATE_TOKAI = {
+		# Iga, Ise, Shima, Owari, Mikawa, Tōtōmi, Suruga, Kai, Izu, Mino, and Hida provinces
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 4192918
 			}
 		}
 	}
