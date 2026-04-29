@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:ADR = {
+	c:MOO = {
     effect_starting_technology_tier_5_tech = yes
 		set_tax_level = high
 		# Laws
