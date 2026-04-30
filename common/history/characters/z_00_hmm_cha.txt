@@ -70,8 +70,7 @@
             template = holstein_gottorp_character_template
 			ruler = yes
 		}
-	}  
-
+	}   
 	c:BAV ?= {
         create_character = {
             template = wittelsbach_character_template
